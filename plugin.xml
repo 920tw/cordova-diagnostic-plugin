@@ -23,10 +23,10 @@
             </feature>
         </config-file>
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
-            <string>This app requires constant access to your location in order to track your position, even when the screen is off.</string>
+            <string>允許App持續取得定位以加速飲料店家的載入.</string>
         </config-file>
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-            <string>This app will now only track your location when the screen is on and the app is displayed.</string>
+            <string>允許App在使用中取得定位以便獲得附近的飲料店家.</string>
         </config-file>
 
         <js-module src="www/ios/diagnostic.js" name="Diagnostic">
